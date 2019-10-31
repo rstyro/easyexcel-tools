@@ -1,6 +1,5 @@
 package top.lrshuai.test.demo.temp.cache;
 
-import com.alibaba.easyexcel.test.temp.poi.Poi2Test;
 import com.alibaba.excel.util.FileUtils;
 import com.alibaba.fastjson.JSON;
 import org.ehcache.Cache;
@@ -13,6 +12,7 @@ import org.junit.Ignore;
 import org.junit.Test;
 import org.slf4j.Logger;
 import org.slf4j.LoggerFactory;
+import top.lrshuai.test.demo.temp.poi.Poi2Test;
 
 import java.io.File;
 import java.util.HashMap;

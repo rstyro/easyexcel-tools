@@ -1,6 +1,5 @@
 package top.lrshuai.test.demo.write;
 
-import com.alibaba.easyexcel.test.util.TestFileUtil;
 import com.alibaba.excel.EasyExcel;
 import com.alibaba.excel.ExcelWriter;
 import com.alibaba.excel.annotation.ExcelProperty;
@@ -22,6 +21,7 @@ import org.apache.poi.ss.usermodel.IndexedColors;
 import org.apache.poi.xssf.streaming.SXSSFSheet;
 import org.junit.Ignore;
 import org.junit.Test;
+import top.lrshuai.test.demo.util.TestFileUtil;
 
 import java.io.File;
 import java.io.InputStream;

@@ -1,6 +1,5 @@
 package top.lrshuai.test.demo.temp.simple;
 
-import com.alibaba.easyexcel.test.temp.LockData;
 import com.alibaba.excel.EasyExcel;
 import com.alibaba.excel.ExcelReader;
 import com.alibaba.excel.read.metadata.ReadSheet;
@@ -8,6 +7,7 @@ import org.junit.Ignore;
 import org.junit.Test;
 import org.slf4j.Logger;
 import org.slf4j.LoggerFactory;
+import top.lrshuai.test.demo.temp.LockData;
 
 import java.io.FileInputStream;
 import java.io.IOException;

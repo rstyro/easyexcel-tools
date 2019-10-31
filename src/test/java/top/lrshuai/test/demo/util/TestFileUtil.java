@@ -11,6 +11,7 @@ public class TestFileUtil {
 
     public static String getPath() {
         return TestFileUtil.class.getResource("/").getPath();
+//        return "F:"+File.separator+"doc"+File.separator;
     }
 
     public static File createNewFile(String pathName) {

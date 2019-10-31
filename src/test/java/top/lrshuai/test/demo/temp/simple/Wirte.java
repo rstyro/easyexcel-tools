@@ -1,14 +1,14 @@
 package top.lrshuai.test.demo.temp.simple;
 
-import com.alibaba.easyexcel.test.core.large.LargeData;
-import com.alibaba.easyexcel.test.demo.write.DemoData;
-import com.alibaba.easyexcel.test.util.TestFileUtil;
 import com.alibaba.excel.EasyExcel;
 import net.sf.cglib.beans.BeanMap;
 import org.junit.Ignore;
 import org.junit.Test;
 import org.slf4j.Logger;
 import org.slf4j.LoggerFactory;
+import top.lrshuai.test.demo.temp.large.LargeData;
+import top.lrshuai.test.demo.util.TestFileUtil;
+import top.lrshuai.test.demo.write.DemoData;
 
 import java.util.ArrayList;
 import java.util.Date;
@@ -24,16 +24,16 @@ import java.util.Map;
 public class Wirte {
     private static final Logger LOGGER = LoggerFactory.getLogger(Wirte.class);
 
-    @Test
-    public void simpleWrite1() {
-        LargeData ss = new LargeData();
-        ss.setStr23("ttt");
-        Map map = BeanMap.create(ss);
-        System.out.println(map.containsKey("str23"));
-        System.out.println(map.containsKey("str22"));
-        System.out.println(map.get("str23"));
-        System.out.println(map.get("str22"));
-    }
+//    @Test
+//    public void simpleWrite1() {
+//        LargeData ss = new LargeData();
+//        ss.setStr23("ttt");
+//        Map map = BeanMap.create(ss);
+//        System.out.println(map.containsKey("str23"));
+//        System.out.println(map.containsKey("str22"));
+//        System.out.println(map.get("str23"));
+//        System.out.println(map.get("str22"));
+//    }
 
     @Test
     public void simpleWrite() {
