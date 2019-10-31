@@ -1,4 +1,4 @@
-package top.lrshuai.test.demo.util;
+package top.lrshuai.util;
 
 import java.io.File;
 import java.io.InputStream;
@@ -10,7 +10,8 @@ public class TestFileUtil {
     }
 
     public static String getPath() {
-        return TestFileUtil.class.getResource("/").getPath();
+        String path = TestFileUtil.class.getResource("/").getPath();
+        return path;
 //        return "F:"+File.separator+"doc"+File.separator;
     }
 

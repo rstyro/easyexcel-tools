@@ -21,7 +21,7 @@ import org.apache.poi.ss.usermodel.IndexedColors;
 import org.apache.poi.xssf.streaming.SXSSFSheet;
 import org.junit.Ignore;
 import org.junit.Test;
-import top.lrshuai.test.demo.util.TestFileUtil;
+import top.lrshuai.util.TestFileUtil;
 
 import java.io.File;
 import java.io.InputStream;

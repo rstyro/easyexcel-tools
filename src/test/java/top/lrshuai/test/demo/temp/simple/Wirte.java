@@ -1,19 +1,16 @@
 package top.lrshuai.test.demo.temp.simple;
 
 import com.alibaba.excel.EasyExcel;
-import net.sf.cglib.beans.BeanMap;
 import org.junit.Ignore;
 import org.junit.Test;
 import org.slf4j.Logger;
 import org.slf4j.LoggerFactory;
-import top.lrshuai.test.demo.temp.large.LargeData;
-import top.lrshuai.test.demo.util.TestFileUtil;
+import top.lrshuai.util.TestFileUtil;
 import top.lrshuai.test.demo.write.DemoData;
 
 import java.util.ArrayList;
 import java.util.Date;
 import java.util.List;
-import java.util.Map;
 
 /**
  * 测试poi
